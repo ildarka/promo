@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+
+  <link rel="icon" href="../favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300&subset=latin,cyrillic,cyrillic-ext" type="text/css" />
+  <link rel="stylesheet" href="http://cdn.materialdesignicons.com/1.2.65/css/materialdesignicons.min.css" />
+  <link rel="stylesheet" href="../promo.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="/..">Сигналтек</a>
+    </div>
+    
+    <div class="device">
+    </div>
+    
+    <h1>Lookus</h1>
+    
+    <div class="description">
+      Агрегатор-балансировщик 10 GbE
+    </div>
+  </header>  
+
+  <div class="salt">
+  
+    <div class="mindblock iconed">
+      <div class="bigicon" style="margin-top:30px">
+        64+64
+      </div>
+
+      <h2>Hardware</h2>
+      <ul>
+        <li>До 64 RX и 64 TX портов</li>
+        <li>Режимы: 1 GbE, 10 GbE, 40 GbE</li>
+        <li>Каждый порт одновременно работает на вход и выход</li>
+        <li>Корпус 1U для монтирования в стойку</li>
+      </ul>
+    </div>
+
+    
+    <div class="mindblock iconed">
+      <div class="bigicon">
+        <img src="i/balancing.png" />
+      </div>
+
+      <h2>Балансировка</h2>
+      <ul>
+        <li>Симметричная</li>
+        <li>Five tuple</li>
+        <li>По MAC-адресам</li>
+        <li>По IP-адресам</li>
+      </ul>
+    </div>
+
+    
+    <div class="mindblock iconed">
+      <div class="bigicon">
+        <img src="i/filtering.png" />
+      </div>
+
+      <h2>Фильтрация</h2>
+      <ul>
+        <li>10к+ не блокирующих фильтров</li>
+        <li>Фильтры по Ethertype</li>
+        <li>Фильтры по MAC, Port, IP</li>
+        <li>Поддержка VLAN, MPLS</li>
+        <li>DPI-фильтры</li>
+      </ul>
+    </div>
+
+    
+    <div class="mindblock iconed">
+      <div class="bigicon">
+        <img src="i/aggregation.png" />
+      </div>
+
+      <h2>Агрегация</h2>
+      <ul>
+        <li>Агрегация из нескольких портов в один</li>
+        <li>Агрегация с фильтрацией</li>
+        <li>Loopback (внутреннее замыкание TX на RX)</li>
+        <li>Force up</li>
+      </ul>
+    </div>
+    
+  </div>
+
+  
+  <div class="mindblock monitoring">
+    <div id="graph1"></div>
+    
+    <div class="salt">
+      <div class="iconed">
+        <h2>Мониторинг и&nbsp;хранение статистики</h2>
+        <ul>
+          <li>Мониторинг в реальном времени</li>
+          <li>Долговременное накопление статистики</li>
+          <li>Хранение метрик скорости, ошибок и т. д.</li>
+          <li>Удобные графики</li>
+        </ul>
+      </div>
+    </div>
+  </div>  
+
+  <div class="paper">
+        
+    <div class="mindblock">
+      <h2>Возможности устройства</h2>
+      <ul>
+        <li>
+        Mirroring, Redirect, Drop трафика
+        </li><li>
+        Агрегация/балансировка трафика из нескольких 10GbE портов в 10/40 GbE порты
+        </li><li>
+        Поддержка балансировки трафика с MPLS
+        </li><li>
+      </ul>
+    </div>
+    
+Управляемая балансировка трафика по критериям:
+  <ul>
+  <li>  
+  MAC + MAC (simmetrize)
+  </li><li>
+  MAC source + MAC destination – IP + IP (simmetrize)
+  </li><li>
+  IP source + IP destination
+  </li><li>
+  IP + Port + ProtoType (5 tuple)
+  </li><li>
+  EtherType
+  </li></ul>  
+</li><li>
+Фильтрация сетевого трафика (до 128 тыс. фильтров) по критериям:
+  <ul>
+    <li>EtherType</li>
+    <li>MAC source, MAC destination с поддержкой маски – IP source, IP destination с поддержкой маски</li>
+    <li>Port source, Port destination с поддержкой маски – ProtoType</li>
+    <li>VLAN с поддержкой маски</li>
+    <li>VLAN2 с поддержкой маски</li>
+  </ul>
+</li><li>        
+Удаленное управление через web-интерфейс
+</li><li>        
+Просмотр статистики загрузки и ошибок на интерфейсах
+</li><li>        
+Возможность доработки под специфические требования заказчика
+</li>        
+    </ul>
+ 
+    <h2>Технические характеристики</h2>
+    <ul>
+    <li>
+    Порты: 48 х 1/10GbE SFP+ (48 TX + 48 RX) и 4 х 10/40GbE QSFP+
+    </li><li>
+    Общее количество Tx/Rx портов до 128
+    </li><li>
+    Не блокируемая коммутационная матрица производительностью 1,28 Тб/c
+    </li><li>
+    Пропускная способность до 960 Mpps
+    </li><li>
+    Низкая задержка (latency) — 500 нс
+    </li><li>
+    Поддержка Jumbo frame 12К
+    </li><li>
+    Пакетный буфер — 9 МБ
+    </li><li>
+    Резервирование и «горячая замена» питания и охлаждения
+    </li><li>
+    Максимальная потребляемая мощность до 450 Вт
+    </li><li>
+    Конструктив 1RU
+    </li><li>
+    Габаритные размеры (ВxШxГ): 44 x 435 x 394 мм
+    </li><li>
+    Вес 9,5 кг
+    </li>
+    </ul>      
+    
+  </div>
+
+  <div class="mindblock screenshots">
+    <h2>Удобный пользовательский интерфейс</h2>
+    
+    <div class="monitor">
+      <div class="screen" id="screen" onClick="changeImg();">
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="footer no-print">
+    <p>
+    <a href="/files/agre-signaltech.pdf">Описание в формате PDF</a>
+    </p>
+    Почта для связи: <a href="mailto:mail@signaltech.ru">mail@signaltech.ru</a>
+    
+  </div>
+</body>
+<script src="http://mbostock.github.com/d3/d3.v2.js"></script>
+<script src="monitoring.js"></script>
+  
+<script>
+  var screens = ['i/screen-login.gif', 'i/screen-ports.png', 'i/screen-rules.png', 'i/screen-graphic.png'];
+  var l = screens.length;
+  var pointer = 0;
+  var scrimg = document.getElementById('screen');
+  
+  var interval = window.setInterval(function() {changeImg();}, 9000);
+  
+  function changeImg() {
+    pointer++;
+    if (pointer>=l) {
+      pointer = 0;
+    }
+    scrimg.style.backgroundImage = 'url(' + screens[pointer] + ')';
+    //scrimg.src = screens[pointer];
+  }
+</script>
+
+  
+</html>

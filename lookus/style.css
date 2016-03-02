@@ -1,0 +1,77 @@
+    header {
+      background:#343a5a url('i/starry.jpg') no-repeat center top;
+    }
+    
+    .device {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        top: 3em;
+        left: 0;
+        right: 0;
+        height: 15%;
+        width: 80%;
+        min-width: 24em;
+        max-width: 1200px;
+        max-height: 160px;
+        background: url(i/device.png) no-repeat center;
+        background-size:100%;
+     
+    }
+    
+    .monitoring {
+      position: relative;
+      height: 520px;
+      overflow: hidden;
+    }
+    
+    .monitoring .salt {z-index: 3}
+    
+    #graph1 {width:3000px; height:500px; position:absolute; top: 0; left:-200px;}
+    
+    path {
+        stroke: steelblue;
+        stroke-width: 1;
+        fill: none;
+    }
+    
+    .screenshots {
+      position: relative;
+      height: 700px; 
+      margin: 6em 0;
+      text-align:center;
+      min-width: 800px;
+    }
+    
+    .monitor {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        top: 4em;
+        left: 0;
+        right: 0;
+        height: 639px;
+        background: url(i/monitor2.png) no-repeat center;
+        background-size: contain;
+    }
+    
+    .screen {
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      width: 732px;
+      height: 442px;
+      top: 33px;
+      left: 0;
+      right: 0;
+      background:rgba(255,140,0,0.1) url(i/screen-login.gif) no-repeat center 3%;
+      background-size: 730px;
+      cursor: pointer;
+    
+    }
+    
+    #screen {cursor: pointer; z-index:3}
+    
+
+
+    
